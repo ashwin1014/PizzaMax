@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Pizza Max</title>
+	<!--Css-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="styles/owl.carousel.min.css">
+	<link rel="stylesheet" href="styles/owl.theme.default.min.css">
+	<link rel="stylesheet" href="styles/animate.css">
+
+</head>
+
+<body>
+	<!--Navbar-->
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#" onclick="window.location.reload()">
+					<img alt="Brand" id="logo" src="img/logo.jpeg">
+				</a>
+			</div>
+			<button id="colBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+		</div>
+		<div>
+			<div class="collapse navbar-collapse pull-right" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#section1">Home</a></li>
+					<li><a href="#section2">Menu</a></li>
+					<li><a href="#section3">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="clearfix"></div>
+	<!--./Navbar-->
+	<div class="main">
+		<div class="row">
+			<div id="section1" class="container-fluid">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+
+					<div class="item"><img src="img/img1.jpg" alt="carousel Image"></div>
+					<div class="item"><img src="img/img2.jpg" alt="carousel Image"></div>
+					<div class="item"><img src="img/img3.jpg" alt="carousel Image"></div>
+					<div class="item"><img src="img/img4.gif" alt="carousel Image"></div>
+					<div class="item"><img src="img/img1.jpg" alt="carousel Image"></div>
+					<div class="item"><img src="img/img2.jpg" alt="carousel Image"></div>
+					<div class="item"><img src="img/img3.jpg" alt="carousel Image"></div>
+					<div class="item"><img src="img/img4.gif" alt="carousel Image"></div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="section2" class="container col-md-12">
+			<div class="text-center">
+				<img src="img/crown.png" alt="menu" class="responsive menImg"><br>
+				<p class="menTxt">MENU</p>
+			</div>
+		</div>
+		<!-- Menu Content -->
+		<div class="row">
+			<div class="container">
+				<!-- appetizer -->
+				<div class="container col-md-4">
+					<img src="img/appetizer.png" alt="appetizers" class="responsive img-thumbnail menuCat">
+					<ul class="list-group list-unstyled">
+						<li class="list-group-item list-group-item-success x"><i class="fa fa-angle-right"></i> French Fries</li>
+						<li class="list-group-item list-group-item-success x"><i class="fa fa-angle-right"></i> Potato Wedges</li>
+						<li class="list-group-item list-group-item-success x"><i class="fa fa-angle-right"></i> Garlic Bread</li>
+						<li class="list-group-item list-group-item-success x"><i class="fa fa-angle-right"></i> Garlic Bread With Cheese</li>
+						<li class="list-group-item list-group-item-success x"><i class="fa fa-angle-right"></i> Bar-B-Que Chicken Wings</li>
+						<li class="list-group-item list-group-item-success x"> <a class="faq-links" data-toggle="collapse" href="#collapse1"><span class="glyphicon glyphicon-plus"></span></a></li>
+
+						<div id="collapse1" class="panel-collapse collapse">
+							<ul class="list-group">
+								<li class="list-group-item list-group-item-success x"><i class="fa fa-angle-right"></i> Spicy Corn Nuggets</li>
+								<li class="list-group-item list-group-item-success x"><i class="fa fa-angle-right"></i> Chicken Nuggets</li>
+							</ul>
+						</div>
+					</ul>
+				</div>
+				<!-- pasta -->
+				<div class="container col-md-4">
+					<img src="img/pasta.jpg" alt="pasta" class="responsive img-thumbnail menuCat">
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-danger"><i class="fa fa-angle-right"></i> Lasagna</li>
+						<li class="list-group-item list-group-item-danger"><i class="fa fa-angle-right"></i> Spaghetti Bolognese</li>
+						<li class="list-group-item list-group-item-danger"><i class="fa fa-angle-right"></i> Penne al Forno</li>
+						<li class="list-group-item list-group-item-danger"><i class="fa fa-angle-right"></i> Cremolata</li>
+						<li class="list-group-item list-group-item-danger"><i class="fa fa-angle-right"></i> Bbq Pasta</li>
+						<li class="list-group-item list-group-item-danger"> <a class="faq-links" data-toggle="collapse" href="#collapse2"><span class="glyphicon glyphicon-plus"></span></a></li>
+
+						<div id="collapse2" class="panel-collapse collapse">
+							<ul class="list-group">
+								<li class="list-group-item list-group-item-danger"><i class="fa fa-angle-right"></i> Primavera</li>
+							</ul>
+
+						</div>
+					</ul>
+				</div>
+				<!-- pizza -->
+				<div class="container col-md-4">
+					<img src="img/pizza.jpg" alt="pizza" class="responsive img-thumbnail menuCat">
+					<ul class="list-group">
+						<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Pizza Max Special</li>
+						<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Pepperoni</li>
+						<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Garlic Bread</li>
+						<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Bar-B-Que Chicken</li>
+						<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Tandoori Chicken</li>
+						<li class="list-group-item list-group-item-warning"> <a class="faq-links" data-toggle="collapse" href="#collapse3"><span class="glyphicon glyphicon-plus"></span></a></li>
+
+						<div id="collapse3" class="panel-collapse collapse">
+							<ul class="list-group">
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Hot & Spicy Chicken</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Fajita Chicken</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Chicken Supreme</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Max Eggiza</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Margherita</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Max Veggie</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Max Gourmet</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Royal Veggie</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Paneer Supreme</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Max Paneer</li>
+								<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-right"></i> Max Veganza</li>
+							</ul>
+
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End of Menu Content -->
+
+		<div class="container col-md-12">
+			<div class="text-center">
+				<img src="img/crown.png" alt="menu" class="responsive menImg"><br>
+				<p class="menTxt">SPECIALS</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="container">
+				<div class="row" style=" margin:20px">
+					<div class="col-md-12 text-center">
+						<button class="btn btn-link btn-info" data-toggle="portfilter" data-target="all">
+							All
+						</button>
+						<button class="btn btn-link btn-info" data-toggle="portfilter" data-target="Meals">
+							Meals
+						</button>
+						<button class="btn btn-link btn-info" data-toggle="portfilter" data-target="Beverages">
+							Beverages
+						</button>
+						<button class="btn btn-link btn-info" data-toggle="portfilter" data-target="Dessert">
+							Dessert
+						</button>
+						<button class="btn btn-link btn-info" data-toggle="portfilter" data-target="Salads">
+							Salads
+						</button>
+						<button class="btn btn-link btn-info" data-toggle="portfilter" data-target="Sides">
+							Sides
+						</button>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Meals">
+					<img src="img/meal1.jpg" class="img-responsive img-thumbnail temp" alt="img">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Beverages">
+					<img src="img/beverage.jpg" class="img-responsive img-thumbnail temp" alt="img">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Dessert">
+					<img src="img/dessert.jpg" class="img-responsive img-thumbnail temp" alt="img">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Salads">
+					<img src="img/salads.jpg" class="img-responsive img-thumbnail temp" alt="img">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Sides">
+					<img src="img/sides.jpg" class="img-responsive img-thumbnail temp" alt="img">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Meals">
+					<img src="img/meal2.jpg" class="img-responsive img-thumbnail temp" alt="img">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Meals">
+					<img src="http://placehold.it/450x250" class="img-responsive img-thumbnail" alt="img">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Dessert">
+					<img src="http://placehold.it/450x250" class="img-responsive img-thumbnail" alt="img">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Salads">
+					<img src="http://placehold.it/450x250" class="img-responsive img-thumbnail" alt="img">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" data-tag="Dessert">
+					<img src="http://placehold.it/450x250" class="img-responsive img-thumbnail" alt="img">
+				</div>
+
+
+			</div>
+		</div>
+
+
+	</div>
+	<!--./Main-->
+	<!--footer Section-->
+	<div id="section3" class="row">
+		<div id="ftr" class="container-fluid">
+
+			<div class="col-md-4 footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Ettumanoor</span> Kerala</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+918086777730/31</p>
+				</div>
+
+				<div>
+					<i class="fa fa-truck"></i>
+					<p>12PM - 11PM</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+
+				<ul class="ull">
+					<li>
+						<h4>Our Other Branches</h4>
+					</li>
+					<li><i class="fa fa-thumb-tack" aria-hidden="true"></i> Munnar <i class="fa fa-phone" aria-hidden="true"></i>
+ 8086777732/34</li>
+					<li><i class="fa fa-thumb-tack" aria-hidden="true"></i> Thekkady  <i class="fa fa-phone" aria-hidden="true"></i>
+ 8086777728/29</li>
+					<li><i class="fa fa-thumb-tack" aria-hidden="true"></i> Varkala <i class="fa fa-phone" aria-hidden="true"></i>
+  8086666675</li>
+					<li><i class="fa fa-thumb-tack" aria-hidden="true"></i> Sulthan Bathery <i class="fa fa-phone" aria-hidden="true"></i>
+  8086777763/64</li>
+				</ul>
+			</div>
+
+			<div class="col-md-4">
+				<!-- <div class="row"> -->
+				<form role="form" id="contactForm" data-toggle="validator" class="shake">
+					<div class="form-group col-sm-6">
+						<label for="name" class="h4 mg">Name</label>
+						<input type="text" class="form-control mg" id="name" data-error="Enter Name" placeholder="Enter name" required>
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group col-sm-6">
+						<label for="email" class="h4 mg">Email</label>
+						<input type="email" class="form-control mg" id="email" data-error="Enter Email" placeholder="Enter email" required>
+						<div class="help-block with-errors"></div>
+					</div>
+					<!-- </div> -->
+					<div class="form-group">
+						<label for="message" class="h4 ">Message</label>
+						<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+					</div>
+					<button type="submit" id="form-submit" class="btn btn-info btn-lg pull-right ">Submit</button>
+					<div id="msgSubmit" class="h3 text-center hidden" style="color:white">Message Submitted!</div>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Scripts-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/owl.autoplay.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/form-scripts.js"></script>
+	<script src="js/bootstrap-portfilter.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
