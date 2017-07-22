@@ -370,10 +370,10 @@
                     </li>
                 </ul>
             </div>
-
+            <!-- contact us form -->
             <div class="col-md-4">
                 <!-- <div class="row"> -->
-                <form role="form" id="contactForm" data-toggle="validator" class="shake">
+                <form role="form" data-toggle="validator" class="shake" method="POST" action="http://formspree.io/ashwin1014@yahoo.co.in">
                     <div class="form-group col-sm-6">
                         <label for="name" class="h4 mg">Name</label>
                         <input type="text" class="form-control mg" id="name" data-error="Enter Name" placeholder="Enter name" required>
@@ -389,7 +389,7 @@
                         <label for="message" class="h4 ">Message</label>
                         <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
                     </div>
-                    <button type="submit" id="form-submit" class="btn btn-info btn-lg pull-right ">Submit</button>
+                    <button type="submit" class="btn btn-info btn-lg pull-right ">Submit</button>
                     <div id="msgSubmit" class="h3 text-center hidden" style="color:white">Message Submitted!</div>
                     <div class="clearfix"></div>
                 </form>
