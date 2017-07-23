@@ -19,6 +19,11 @@
     .wt {
         color: whitesmoke;
     }
+    
+    .sl {
+        height: 51px;
+        width: 51px;
+    }
     /* round buttons */
     
     .btnHide {
