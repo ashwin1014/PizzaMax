@@ -1,11 +1,13 @@
 $(document).ready(function() {
+    $('.mc').hide();
+
     var owl = $(".owl-carousel");
     owl.owlCarousel({
         items: 4,
         loop: true,
         autoplay: true,
         autoPlaySpeed: 3000,
-        autoPlayTimeout: 3000,
+        autoPlayTimeout: 1000,
         autoplayHoverPause: true
     });
 });
@@ -30,6 +32,11 @@ $('.list-group li a').click(function() {
 
 });
 
+$('.list-group li a').click(function() {
+    $(this).next('ul').slideToggle('500');
+    $(this).find('i').toggleClass('fa-plus fa-minus');
+
+});
 
 //navbar
 var navbarHeight = $('.navbar').height();
@@ -66,4 +73,37 @@ $(window).scroll(function() {
     }
 
 
+    if ($(this).scrollTop() > 0) {
+        $('.mc').fadeIn();
+    } else {
+        $('.mc').hide();
+    }
+
+
+});
+
+
+
+//contact Form
+
+var $contactForm = $('#contact-form');
+$contactForm.submit(function(e) {
+    e.preventDefault();
+    $.ajax({
+        url: '//formspree.io/ashwin1014@yahoo.co.in',
+        method: 'POST',
+        data: $(this).serialize(),
+        dataType: 'json',
+        beforeSend: function() {
+            $contactForm.append('<div class="alert alert-warning"><strong>Sending Message</strong></div>');
+        },
+        success: function(data) {
+            $contactForm.find('.alert-warning').hide();
+            $contactForm.append('<div class="alert alert-success"><strong>Success!</strong></div>');
+        },
+        error: function(err) {
+            $contactForm.find('.alert-warning').hide();
+            $contactForm.append('<div class="alert alert-danger">Ops, there was an error.</div>');
+        }
+    });
 });

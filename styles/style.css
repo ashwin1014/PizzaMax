@@ -6,11 +6,27 @@
         position: relative;
     }
     
+    .parallax {
+        background-image: url("https://gifyu.com/images/pizza-gif48d3b.gif");
+        /* Full height */
+        height: 100%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .wt {
+        color: whitesmoke;
+    }
+    
     #logo {
         height: 3em;
         width: 8em;
         margin-top: -0.8em;
-        margin-left: -2.6em;
+        /* margin-left: -2.6em; */
+        margin-left: 12.4em;
     }
     /* ........................... */
     
@@ -106,10 +122,9 @@
     /* *********************************
            Big Logo
   ********************************** */
-    
-    .big-logo-row {
-        background: red;
-    }
+    /* .big-logo-row {
+        background: #DD373E;
+    } */
     
     .big-logo-row .big-logo-container {
         padding-top: 50px;
@@ -125,8 +140,8 @@
         #logo {
             height: 1em;
             width: 3em;
-            margin-top: -0.8em;
-            margin-left: -0.6em;
+            margin-top: -0.5em;
+            margin-left: -0.4em;
         }
     }
     
@@ -137,8 +152,8 @@
         #logo {
             height: 1em;
             width: 3em;
-            margin-top: -0.8em;
-            margin-left: -0.6em;
+            margin-top: -0.5em;
+            margin-left: -0.4em;
         }
     }
     
@@ -161,8 +176,8 @@
         #logo {
             height: 1em;
             width: 3em;
-            margin-top: -0.8em;
-            margin-left: -0.6em;
+            margin-top: -0.5em;
+            margin-left: -0.4em;
         }
     }
     
@@ -187,7 +202,7 @@
             height: 3em;
             width: 8em;
             margin-top: -0.8em;
-            margin-left: -2.6em;
+            margin-left: 14.4em;
         }
     }
     /* ............................... */
