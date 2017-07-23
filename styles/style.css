@@ -26,7 +26,7 @@
         width: 8em;
         margin-top: -0.8em;
         /* margin-left: -2.6em; */
-        margin-left: 12.4em;
+        margin-left: -2.6em;
     }
     /* ........................... */
     
@@ -199,10 +199,10 @@
             font-size: 2em;
         }
         #logo {
-            height: 3em;
-            width: 8em;
+            height: 7em;
+            width: 19em;
             margin-top: -0.8em;
-            margin-left: 14.4em;
+            margin-left: 8.4em;
         }
     }
     /* ............................... */

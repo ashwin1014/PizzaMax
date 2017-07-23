@@ -1,5 +1,8 @@
 $(document).ready(function() {
+    $(".main-body").css("display", "none");
+
     $('.mc').hide();
+
 
     var owl = $(".owl-carousel");
     owl.owlCarousel({
@@ -29,19 +32,24 @@ $(document).ready(function() {
 $('.list-group li a').click(function() {
     $(this).next('ul').slideToggle('500');
     $(this).find('span').toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
-
-});
-
-$('.list-group li a').click(function() {
-    $(this).next('ul').slideToggle('500');
     $(this).find('i').toggleClass('fa-plus fa-minus');
-
 });
+
+
+
+$(document).on('DOMMouseScroll mousewheel', function(event) {
+    $('.main-body').show();
+    $('.h').hide();
+});
+
 
 //navbar
 var navbarHeight = $('.navbar').height();
 
 $(window).scroll(function() {
+
+
+
     var navbarColor = "62,195,246"; //color attr for rgba
     var smallLogoHeight = $('.small-logo').height();
     var bigLogoHeight = $('.big-logo').height();
