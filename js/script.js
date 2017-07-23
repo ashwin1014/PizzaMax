@@ -1,18 +1,17 @@
 $(document).ready(function() {
-    $(".main-body").css("display", "none");
-
+    $(".main-body").hide();
     $('.mc').hide();
 
 
-    var owl = $(".owl-carousel");
-    owl.owlCarousel({
-        items: 4,
-        loop: true,
-        autoplay: true,
-        autoPlaySpeed: 3000,
-        autoPlayTimeout: 1000,
-        autoplayHoverPause: true
-    });
+    // var owl = $(".owl-carousel");
+    // owl.owlCarousel({
+    //     items: 4,
+    //     loop: true,
+    //     autoplay: true,
+    //     autoPlaySpeed: 3000,
+    //     autoPlayTimeout: 1000,
+    //     autoplayHoverPause: true
+    // });
 });
 
 
@@ -35,12 +34,22 @@ $('.list-group li a').click(function() {
     $(this).find('i').toggleClass('fa-plus fa-minus');
 });
 
+$(".btn-circle").click(function() {
 
-
-$(document).on('DOMMouseScroll mousewheel', function(event) {
     $('.main-body').show();
-    $('.h').hide();
+    $(' .btnHide').hide();
 });
+
+
+
+// $(document).on('DOMMouseScroll mousewheel', function(event) { //on scroll down
+//     if (event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0) {
+
+//         $('.main-body').show();
+//        
+//     }
+
+// });
 
 
 //navbar
