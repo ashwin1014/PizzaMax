@@ -1,8 +1,11 @@
     @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+    html,
     body {
         font-family: 'Ubuntu', sans-serif;
         font-size: 16px;
         position: relative;
+        max-width: 100%;
+        overflow-x: hidden;
     }
     
     .parallax {
@@ -18,11 +21,6 @@
     
     .wt {
         color: whitesmoke;
-    }
-    
-    .sl {
-        height: 51px;
-        width: 51px;
     }
     /* round buttons */
     
@@ -50,14 +48,13 @@
         opacity: 0.5;
     }
     /* /.round button */
-    
+    /*     
     #logo {
         height: 3em;
         width: 8em;
         margin-top: -0.8em;
-        /* margin-left: -2.6em; */
         margin-left: -2.6em;
-    }
+    } */
     /* ........................... */
     
     .navbar-inverse {
@@ -74,20 +71,6 @@
     .navbar-inverse .navbar-collapse,
     .navbar-inverse .navbar-form {
         border-color: transparent;
-    }
-    
-    @media (min-width: 768px) {
-        .navbar-right {
-            float: right!important;
-            margin-right: -86px!important;
-        }
-    }
-    
-    @media (max-width: 767px) {
-        .navbar-inverse .navbar-collapse,
-        .navbar-inverse .navbar-form {
-            background: rgba(255, 255, 255, 0.75);
-        }
     }
     
     .navbar-inverse .navbar-nav>li>a {
@@ -164,76 +147,6 @@
         font-size: 4em;
         margin: 0;
         padding: 0 0 15px 0;
-    }
-    
-    @media (min-width: 359px) {
-        #logo {
-            height: 1em;
-            width: 3em;
-            margin-top: -0.5em;
-            margin-left: -0.4em;
-        }
-    }
-    
-    @media (min-width: 400px) {
-        .big-logo-row h1 {
-            font-size: 4.5em;
-        }
-        #logo {
-            height: 1em;
-            width: 3em;
-            margin-top: -0.5em;
-            margin-left: -0.4em;
-        }
-    }
-    
-    @media (min-width: 440px) {
-        .big-logo-row h1 {
-            font-size: 5.5em;
-        }
-    }
-    
-    @media (min-width: 500px) {
-        .big-logo-row h1 {
-            font-size: 6.5em;
-        }
-    }
-    
-    @media (min-width: 630px) {
-        .big-logo-row h1 {
-            font-size: 7.5em;
-        }
-        #logo {
-            height: 1em;
-            width: 3em;
-            margin-top: -0.5em;
-            margin-left: -0.4em;
-        }
-    }
-    
-    @media (min-width: 768px) {
-        .big-logo-row h1 {
-            font-size: 9em;
-            padding-bottom: 30px;
-        }
-        #logo {
-            height: 1em;
-            width: 3em;
-            margin-top: -49px;
-            margin-left: -0.3em;
-        }
-    }
-    
-    @media (min-width: 1200px) {
-        .big-logo-row h1 {
-            font-size: 2em;
-        }
-        #logo {
-            height: 7em;
-            width: 19em;
-            margin-top: -0.8em;
-            margin-left: 8.4em;
-        }
     }
     /* ............................... */
     
