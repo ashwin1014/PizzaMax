@@ -2,9 +2,12 @@ $(document).ready(function() {
     $(".main-body").hide();
     $('.mc').hide();
     $('.navbar-header').hide();
+    // $(".btnHide").css("height", screen.height * 0.7);
     var contactform = document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'ashwin1014' + '@' + 'yahoo' + '.' + 'co.in');
+
 });
+
 
 
 $('.list-group li a').click(function() {
@@ -13,7 +16,7 @@ $('.list-group li a').click(function() {
     $(this).find('i').toggleClass('fa-plus fa-minus');
 });
 
-$("a.cirBtn").click(function() {
+$(".cirBtn").click(function() {
 
     $('.main-body').fadeIn(1000);
     $('.btnHide').hide();
@@ -24,15 +27,16 @@ $("a.cirBtn").click(function() {
 
 //Open page on Scroll
 
-// $(document).on('DOMMouseScroll mousewheel', function(event) { //on scroll down
-//     if (event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0) {
+$(document).on('DOMMouseScroll mousewheel', function(event) { //on scroll down
+    if (event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0) {
 
-//         $('.main-body').fadeIn(2000);
-//         $('.btnHide').hide();
-//        
-//     }
+        $('.main-body').fadeIn();
+        $('.btnHide').hide();
 
-// });
+    }
+
+});
+
 
 
 //navbar
@@ -98,7 +102,9 @@ $(window).scroll(function() {
     } else {
         $('.mc').hide();
         $('.navbar-header').hide();
-    }
+        $('.main-body').hide();
+        $('.btnHide').fadeIn();
 
+    }
 
 });
