@@ -10,13 +10,20 @@
     
     .parallax {
         background-image: url("https://gifyu.com/images/pizza-gif48d3b.gif");
-        /* Full height */
         height: 100%;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    *:focus {
+        outline: none!important;
     }
     
     .wt {
@@ -231,5 +238,5 @@
     }
     
     #section2 {
-        padding-top: 8%;
+        padding-top: 5%;
     }

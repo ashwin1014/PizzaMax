@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.mc').hide();
     $('.navbar-header').hide();
     var contactform = document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'emai' + '@' + 'provider' + '.' + 'co.in');
+    contactform.setAttribute('action', '//formspree.io/' + 'ashwin1014' + '@' + 'yahoo' + '.' + 'co.in');
 });
 
 
@@ -13,7 +13,7 @@ $('.list-group li a').click(function() {
     $(this).find('i').toggleClass('fa-plus fa-minus');
 });
 
-$(".btn-circle").click(function() {
+$("a.cirBtn").click(function() {
 
     $('.main-body').fadeIn(1000);
     $('.btnHide').hide();
