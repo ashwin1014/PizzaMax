@@ -1,285 +1,291 @@
-    @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-    html,
-    body {
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 16px;
-        position: relative;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-    
-    .parallax {
-        background-image: url("../img/phone-background.png");
-        height: 100%;
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-blend-mode: inherit;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    section.parallax1 {
-        background-color: white;
-        padding-bottom: 8%;
-    }
-    
-    section.parallax2 {
-        background-color: white;
-        padding-bottom: 8%;
-    }
-    
-    a {
-        text-decoration: none !important;
-    }
-    
-    li.borderless {
-        border-top: 0 none;
-        border: none
-    }
-    
-    *:focus {
-        outline: none!important;
-    }
-    
-    .wt {
-        color: black;
-    }
-    /* round buttons */
-    
-    .btnHide {
-        margin-left: 27%;
-        display: block;
-    }
-    /* .btn-circle.btn-xl {
-        width: 171px;
-        height: 169px;
-        padding: 10px 16px;
-        border-radius: 140px;
-        font-size: 24px;
-        line-height: 1.33;
-    }
-    
-    .btn-circle {
-        width: 30px;
-        height: 30px;
-        padding: 6px 0px;
-        border-radius: 15px;
-        text-align: center;
-        font-size: 12px;
-        line-height: 1.42857;
-        opacity: 0.5;
-    } */
-    /*------------------------------*/
-    
-    .btn-holder {
-        display: block;
-        margin: 5% auto;
-        width: 600px;
-    }
-    
-    .btn-xl {
-        height: 140px;
-        width: 140px;
-        border-radius: 50%;
-        border: 1px solid white;
-        color: white;
-        font-size: 1.5em;
-        background: rgba(255, 255, 255, 0.3);
-        outline: 0;
-        margin: 20px;
-    }
-    
-    .btn-xl:hover {
-        background: rgba(255, 255, 255, 0);
-    }
-    /*     
-    .btn-xl:active {
-        background: rgba(255, 0, 0, 0.1);
-    } */
-    /*.............................*/
-    /* /.round button */
-    /*     
-    #logo {
-        height: 3em;
-        width: 8em;
-        margin-top: -0.8em;
-        margin-left: -2.6em;
-    } */
-    /* ........................... */
-    
-    .navbar-inverse {
-        background: rgba(62, 195, 246, 0);
-        border-bottom: none;
-        width: 100%
-    }
-    
-    .navbar-inverse .navbar-toggle {
-        border: 1px solid #333;
-        border-color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .navbar-inverse .navbar-collapse,
-    .navbar-inverse .navbar-form {
-        border-color: transparent;
-    }
-    
-    .navbar-inverse .navbar-nav>li>a {
-        color: black;
-    }
-    
-    .navbar-inverse .navbar-nav>li>a:hover,
-    .navbar-inverse .navbar-nav>li>a:focus {
-        color: #22F;
-    }
-    
-    li a {
-        text-decoration: none;
-        position: relative;
-        padding: 6px 0;
-        -webkit-transition: all 0.8s;
-        transition: all 0.8s;
-        color: lightblue;
-    }
-    
-    li a:after {
-        content: '';
-        width: 0%;
-        margin-left: 50%;
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        border-radius: 40%;
-        position: absolute;
-        transition: all 0.5s;
-    }
-    
-    li a:hover:after {
-        background-color: white;
-        width: 60%;
-        margin-left: 20%;
-        box-shadow: 0px 0px 10px white;
-    }
-    
-    li a.active:after {
-        background-color: white;
-        width: 60%;
-        margin-left: 20%;
-        box-shadow: 0px 0px 10px white;
-    }
-    /* *********************************
-           Toolbar Logo
-  ********************************** */
-    
-    .small-logo-container {
-        padding-top: 50px;
-        height: 50px;
-        overflow: hidden;
-        position: absolute;
-    }
-    
-    .small-logo {
-        color: white;
-        font-size: 2.5em;
-        padding-bottom: 2px;
-    }
-    /* *********************************
-           Big Logo
-  ********************************** */
-    /* .big-logo-row {
-        background: #DD373E;
-    } */
-    
-    .big-logo-row .big-logo-container {
-        padding-top: 50px;
-    }
-    
-    .big-logo-row h1 {
-        font-size: 4em;
-        margin: 0;
-        padding: 0 0 15px 0;
-    }
-    /* ............................... */
-    
-    #colBtn {
-        margin-right: -3px;
-    }
-    
-    .btn-link {
-        font-size: 1.5em;
-        color: black;
-    }
-    
-    .btn-link:focus {
-        outline: 0;
-        outline-style: hidden;
-    }
-    
-    .mg {
-        margin-left: -15px;
-    }
-    
-    .temp {
-        width: 450px;
-        height: 250px;
-    }
-    
-    ul li a {
-        font-size: 20px!important;
-        font-weight: bold!important;
-        color: black!important;
-    }
-    
-    .ull {
-        list-style-type: none;
-    }
-    
-    .lgi {
-        padding: 7px 15px!important;
-    }
-    
-    ul.nav a:hover {
-        color: #4a4c4f !important;
-    }
-    
-    .menImg {
-        height: 2.5em;
-    }
-    
-    .menTxt {
-        font-size: 3em;
-    }
-    
-    .menuCat {
-        width: 360px;
-        height: 185px;
-    }
-    
-    .fa-angle-right {
-        padding: 0px 6px;
-        display: inline-block;
-        -moz-border-radius: 100px;
-        -webkit-border-radius: 100px;
-        border-radius: 100px;
-        -moz-box-shadow: 0px 0px 2px #888;
-        -webkit-box-shadow: 0px 0px 2px #888;
-        box-shadow: 0px 0px 2px #888;
-    }
-    
-    #section4 {
-        padding-top: 2%;
-        /* padding-left: 5%;
-        padding-right: 5%; */
-        /* margin-bottom: 8%; */
-    }
-    
-    #section2 {
-        padding-top: 2%;
-        /* padding-left: 5%;
-        padding-right: 5%; */
-        /* padding-bottom: 8%; */
-    }
-    
-    #parallax2 {
-        margin-bottom: 5%!important;
-    }
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    position: relative;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.parallax {
+    background-image: url("../img/phone-background.png");
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-blend-mode: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.parallax1 {
+    background-color: white;
+    padding-bottom: 8%;
+}
+
+section.parallax2 {
+    background-color: white;
+    padding-bottom: 8%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li.borderless {
+    border-top: 0 none;
+    border: none
+}
+
+*:focus {
+    outline: none!important;
+}
+
+.wt {
+    color: black;
+}
+/* round buttons */
+
+.btnHide {
+    margin-left: 27%;
+    display: block;
+}
+/* .btn-circle.btn-xl {
+    width: 171px;
+    height: 169px;
+    padding: 10px 16px;
+    border-radius: 140px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    opacity: 0.5;
+} */
+/*------------------------------*/
+
+.btn-holder {
+    display: block;
+    margin: 5% auto;
+    width: 600px;
+}
+
+.btn-xl {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, 0.3);
+    outline: 0;
+    margin: 20px;
+}
+
+.btn-xl:hover {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+.btn-xl:active {
+    background: rgba(255, 0, 0, 0.1)!important;
+    border: 1px solid white!important;
+}
+/*
+.btn-xl:active {
+    background: rgba(255, 0, 0, 0.1);
+} */
+/*.............................*/
+/* /.round button */
+/*
+#logo {
+    height: 3em;
+    width: 8em;
+    margin-top: -0.8em;
+    margin-left: -2.6em;
+} */
+/* ........................... */
+
+.navbar-inverse {
+    background: rgba(62, 195, 246, 0);
+    border-bottom: none;
+    width: 100%
+}
+
+.navbar-inverse .navbar-toggle {
+    border: 1px solid #333;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #22F;
+}
+
+li a {
+    text-decoration: none;
+    position: relative;
+    padding: 6px 0;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    color: lightblue;
+}
+
+li a:after {
+    content: '';
+    width: 0%;
+    margin-left: 50%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border-radius: 40%;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+li a:hover:after {
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0px 0px 10px white;
+}
+
+li a.active:after {
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0px 0px 10px white;
+}
+/* *********************************
+       Toolbar Logo
+********************************** */
+
+.small-logo-container {
+    padding-top: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.small-logo {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 2px;
+}
+/* *********************************
+       Big Logo
+********************************** */
+/* .big-logo-row {
+    background: #DD373E;
+} */
+
+.big-logo-row .big-logo-container {
+    padding-top: 50px;
+}
+
+.big-logo-row h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+/* ............................... */
+
+#colBtn {
+    margin-right: -3px;
+}
+
+.btn-link {
+    font-size: 1.5em;
+    color: black;
+}
+
+.btn-link:focus {
+    outline: 0;
+    outline-style: hidden;
+}
+
+.mg {
+    margin-left: -15px;
+}
+
+.temp {
+    width: 450px;
+    height: 250px;
+}
+
+ul li a {
+    font-size: 20px!important;
+    font-weight: bold!important;
+    color: black!important;
+}
+
+.ull {
+    list-style-type: none;
+}
+
+.lgi {
+    padding: 7px 15px!important;
+}
+
+ul.nav a:hover {
+    color: #4a4c4f !important;
+}
+
+.menImg {
+    height: 2.5em;
+}
+
+.menTxt {
+    font-size: 3em;
+}
+
+.menuCat {
+    width: 150px;
+    height: auto;
+    border: 0;
+}
+
+.fa-angle-right {
+    padding: 0px 6px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+}
+
+#section4 {
+    padding-top: 2%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* margin-bottom: 8%; */
+}
+
+#section2 {
+    padding-top: 2%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* padding-bottom: 8%; */
+}
+
+#parallax2 {
+    margin-bottom: 5%!important;
+}
