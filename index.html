@@ -429,31 +429,31 @@
                         <!-- contact us form -->
                         <div class="col-md-4">
 
-                            <!-- <div class="row"> -->
-                            <form role="form" id="contactform" data-toggle="validator" class="shake" method="POST">
-                                <div class="form-group col-sm-6">
-                                    <label for="name" class="h4 mg">Name</label>
-                                    <input type="text" class="form-control mg" id="name" name="name" data-error="Enter Name" placeholder="Enter name" required>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <label for="email" class="h4 mg">Email</label>
-                                    <input type="email" class="form-control mg" id="email" name="_replyto" data-error="Enter Email" placeholder="Enter email" required>
-                                    <div class="help-block with-errors"></div>
-                                </div>
+                            <!-- Trigger the modal with a button -->
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top: 7%;">Write to us</button>
 
-                                <div class="form-group">
-                                    <label for="message" class="h4 ">Message</label>
-                                    <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
-                                </div>
-                                <!-- CONFIG -->
-                                <input class="is-hidden" type="text" name="_gotcha" style="display:none">
-                                <input type="hidden" name="_subject" value="Mail from Pizza Max">
+                            <!-- Modal -->
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
 
-                                <!-- /CONFIG -->
-                                <button type="submit" class="btn btn-info btn-lg pull-right submit" value="Send">Submit</button>
-                                <div class="clearfix"></div>
-                            </form>
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title wt">Write to us</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="wt">Form</p>
+                                            <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=xxxxxxxxxxxxxxxxxxxx" width="760" height="320" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
