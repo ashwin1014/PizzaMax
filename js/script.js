@@ -4,9 +4,6 @@ $(document).ready(function() {
     $('.mc').hide();
     $('.navbar-header').hide();
 
-    var contactform = document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'yourEmail' + '@' + 'gmail/yahoo/live' + '.' + 'co.in/com');
-
 });
 
 
