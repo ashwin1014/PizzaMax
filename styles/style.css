@@ -45,32 +45,14 @@ li.borderless {
 .wt {
     color: black;
 }
+
+
 /* round buttons */
 
 .btnHide {
-    margin-left: 27%;
+    margin-left: 25%;
     display: block;
 }
-/* .btn-circle.btn-xl {
-    width: 171px;
-    height: 169px;
-    padding: 10px 16px;
-    border-radius: 140px;
-    font-size: 24px;
-    line-height: 1.33;
-}
-
-.btn-circle {
-    width: 30px;
-    height: 30px;
-    padding: 6px 0px;
-    border-radius: 15px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.42857;
-    opacity: 0.5;
-} */
-/*------------------------------*/
 
 .btn-holder {
     display: block;
@@ -94,24 +76,11 @@ li.borderless {
     background: rgba(255, 255, 255, 0);
     border: 1px solid white;
 }
+
 .btn-xl:active {
     background: rgba(255, 0, 0, 0.1)!important;
     border: 1px solid white!important;
 }
-/*
-.btn-xl:active {
-    background: rgba(255, 0, 0, 0.1);
-} */
-/*.............................*/
-/* /.round button */
-/*
-#logo {
-    height: 3em;
-    width: 8em;
-    margin-top: -0.8em;
-    margin-left: -2.6em;
-} */
-/* ........................... */
 
 .navbar-inverse {
     background: rgba(62, 195, 246, 0);
@@ -172,6 +141,8 @@ li a.active:after {
     margin-left: 20%;
     box-shadow: 0px 0px 10px white;
 }
+
+
 /* *********************************
        Toolbar Logo
 ********************************** */
@@ -188,9 +159,13 @@ li a.active:after {
     font-size: 2.5em;
     padding-bottom: 2px;
 }
+
+
 /* *********************************
        Big Logo
 ********************************** */
+
+
 /* .big-logo-row {
     background: #DD373E;
 } */
@@ -204,6 +179,8 @@ li a.active:after {
     margin: 0;
     padding: 20px 0 0px 0;
 }
+
+
 /* ............................... */
 
 #colBtn {
@@ -273,19 +250,32 @@ ul.nav a:hover {
 }
 
 #section4 {
-    padding-top: 2%;
-    /* padding-left: 5%;
-    padding-right: 5%; */
-    /* margin-bottom: 8%; */
+    padding-top: 4%;
 }
 
 #section2 {
-    padding-top: 2%;
-    /* padding-left: 5%;
-    padding-right: 5%; */
-    /* padding-bottom: 8%; */
+    padding-top: 4%;
 }
 
 #parallax2 {
     margin-bottom: 5%!important;
+}
+
+
+/* call for delivery */
+
+.p1,
+.p2 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.p1p2 {
+    display: inline-block;
+    position: absolute;
+    left: 66%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    width: 48%;
+    height: 58%;
 }

@@ -3,7 +3,6 @@
 @media (min-width: 768px) {
     .navbar-right {
         float: right!important;
-        margin-right: -86px!important;
     }
 }
 
@@ -165,5 +164,18 @@
     .btnHide {
         margin-left: 25%;
         margin-top: 1%;
+    }
+}
+
+@media (width:768px) {
+    .btnHide {
+        margin-left: 11%;
+        display: block;
+    }
+}
+
+@media (widht:375px) {
+    .btnHide {
+        margin-top: -36%;
     }
 }

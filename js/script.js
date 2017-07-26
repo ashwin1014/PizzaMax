@@ -1,13 +1,13 @@
 $(document).ready(function() {
+
     $(".main-body").hide();
     $('.mc').hide();
     $('.navbar-header').hide();
-    // $(".btnHide").css("height", screen.height * 0.7);
+
     var contactform = document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'ashwin1014' + '@' + 'yahoo' + '.' + 'co.in');
+    contactform.setAttribute('action', '//formspree.io/' + 'yourEmail' + '@' + 'gmail/yahoo/live' + '.' + 'co.in/com');
 
 });
-
 
 
 $('.list-group li a').click(function() {
