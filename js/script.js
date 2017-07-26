@@ -3,6 +3,7 @@ $(document).ready(function() {
     $(".main-body").hide();
     $('.mc').hide();
     $('.navbar-header').hide();
+    $(".p1p2").css("font-size",screen.height*0.017);
 
 });
 
