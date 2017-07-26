@@ -25,6 +25,8 @@ $(".cirBtn").click(function() {
 });
 
 
+
+
 //Open page on Scroll
 
 $(document).on('DOMMouseScroll mousewheel', function(event) { //on scroll down
