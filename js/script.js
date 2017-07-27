@@ -3,7 +3,7 @@ $(document).ready(function() {
     $(".main-body").hide();
     $('.mc').hide();
     $('.navbar-header').hide();
-   // $(".p1p2").css("font-size", screen.height * 0.017);
+    $(".p1p2").css("font-size", screen.height * 0.017);
 
 });
 
@@ -36,18 +36,6 @@ $(document).on('DOMMouseScroll mousewheel', function(event) { //on scroll down
     }
 
 });
-
-$(document).swipe({
-    swipeUp: function(event, direction, distance, duration) {
-        //console.log("You swiped " + direction)        
-        $('.main-body').fadeIn();
-        $('.btnHide').hide();
-    },
-
-    threshold: 100,
-    allowPageScroll: "vertical"
-});
-
 
 
 
