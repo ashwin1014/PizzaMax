@@ -287,3 +287,7 @@ ul.nav a:hover {
 .modal-header {
     cursor: move;
 }
+
+.modal-footer {
+    cursor: move;
+}
