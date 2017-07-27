@@ -3,7 +3,7 @@ $(document).ready(function() {
     $(".main-body").hide();
     $('.mc').hide();
     $('.navbar-header').hide();
-    $(".p1p2").css("font-size",screen.height*0.017);
+    $(".p1p2").css("font-size", screen.height * 0.017);
 
 });
 
@@ -108,3 +108,15 @@ $(window).scroll(function() {
     }
 
 });
+
+
+//modal
+
+$('.modal-content').resizable({
+    alsoResize: ".modal-dialog",
+    minHeight: 500,
+    //minWidth: 300
+
+});
+
+$('.modal-dialog').draggable();

@@ -279,3 +279,11 @@ ul.nav a:hover {
     width: 48%;
     height: 58%;
 }
+
+.modal {
+    overflow: hidden;
+}
+
+.modal-header {
+    cursor: move;
+}
