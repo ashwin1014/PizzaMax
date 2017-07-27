@@ -27,13 +27,13 @@ $(".cirBtn").click(function() {
 
 //Open page on Scroll
 
-$(document).on('DOMMouseScroll mousewheel', function(event) { //on scroll down
-    if (event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0) {
-
+$(document).on('scroll', function(event) { //on scroll down
+    // if (event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0) {
+        $("#blank-div").hide();
         $('.main-body').fadeIn();
         $('.btnHide').hide();
 
-    }
+    // }
 
 });
 
@@ -104,6 +104,7 @@ $(window).scroll(function() {
         $('.navbar-header').hide();
         $('.main-body').hide();
         $('.btnHide').fadeIn();
+        $('#blank-div').show()
 
     }
 
