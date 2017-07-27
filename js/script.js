@@ -29,9 +29,9 @@ $(".cirBtn").click(function() {
 
 $(document).on('scroll', function(event) { //on scroll down
     // if (event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0) {
-        $("#blank-div").hide();
-        $('.main-body').fadeIn();
-        $('.btnHide').hide();
+    $("#blank-div").hide();
+    $('.main-body').fadeIn();
+    $('.btnHide').hide();
 
     // }
 
@@ -121,3 +121,21 @@ $('.modal-content').resizable({
 });
 
 $('.modal-dialog').draggable();
+
+// scroll to top button
+
+window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
