@@ -8,17 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-.parallax {
-    background-image: url("../img/new-bg.jpg");
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-blend-mode: inherit;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 section.parallax1 {
     background-color: white;
     padding-bottom: 8%;
