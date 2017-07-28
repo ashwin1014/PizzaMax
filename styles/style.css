@@ -14,7 +14,7 @@ body {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-blend-mode: inherit;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -61,12 +61,12 @@ li.borderless {
 }
 
 .btn-xl {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     border: 1px solid white;
     color: white;
-    font-size: 1.2em!important;
+    font-size: 1.4em!important;
     background: rgba(255, 255, 255, 0.3);
     outline: 0;
     margin: 20px;
