@@ -9,7 +9,7 @@ body {
 }
 
 .parallax {
-    background-image: url("../img/phone-background.png");
+    background-image: url("../img/new-bg.jpg");
     height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
