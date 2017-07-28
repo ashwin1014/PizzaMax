@@ -16,7 +16,7 @@ $('.list-group li a').click(function() {
 
 $(".cirBtn").click(function() {
 
-    $('.main-body').fadeIn(1000);
+    $('.main-body').show();
     $('.btnHide').hide();
     $('.navbar-header').show();
 
@@ -30,7 +30,7 @@ $(".cirBtn").click(function() {
 $(document).on('scroll', function(event) { //on scroll down
     // if (event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0) {
     $("#blank-div").hide();
-    $('.main-body').fadeIn();
+    $('.main-body').show();
     $('.btnHide').hide();
 
     // }
@@ -97,13 +97,13 @@ $(window).scroll(function() {
     //hide navbar contents before scroll
 
     if ($(this).scrollTop() > 0) {
-        $('.mc').fadeIn();
+        $('.mc').show();
         $('.navbar-header').show();
     } else {
         $('.mc').hide();
         $('.navbar-header').hide();
         $('.main-body').hide();
-        $('.btnHide').fadeIn();
+        $('.btnHide').show();
         $('#blank-div').show()
 
     }
@@ -136,6 +136,6 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
