@@ -1,4 +1,4 @@
 # PizzaMax
 Food ordering website
-
-Libraries Used: Bootstrap, validator.js, Jquery, Animate.css, formspree.io
+http://www.pizzamax.in/
+Libraries Used: Bootstrap, Jquery, google forms
